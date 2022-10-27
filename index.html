@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Howe | Front End Developer</title>
+    <link rel="preload" href="styles-dark.css" as="style">
+    <link rel="stylesheet" href="styles-light.css" id="theme-link">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@200;300;500;700&family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="theme.js"></script>
+
+    <div class="darkened-background"> </div>
+
+    <div class="wrapper">
+        <header>
+            <div class="logo-wrapper">
+                <h1><a href="#home">DH</a></h1>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a target="_blank" href="https://github.com/davidhowe1">GitHub</a></li>
+                </ul>
+            </div>
+
+            <div class="cv-wrapper">
+                <h1><a target="_blank" href="https://drive.google.com/file/d/1EpLGNJVymF-tW0engZirwWBzY3N5KCKC/view">CV</a></h1>
+            </div>
+        </header>
+
+        <div class="mobile-menu">
+            <div class="close-menu">
+                <span>
+                    <h1>&times</h1>
+                </span>
+            </div>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a target="_blank" href="https://github.com/davidhowe1">GitHub</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1EpLGNJVymF-tW0engZirwWBzY3N5KCKC/view">CV</a></li>
+            </ul>
+
+            <div class="toggle-lighting-mode-mobile">
+                <p>Dark Mode</p>
+                <input type="checkbox" id="switch" />
+                <label id="switch" for="switch">Toggle</label>
+            </div>
+        </div>
+
+        <header class="mobile">
+            <div class="logo-wrapper">
+                <h1><a href="#home">DH</a></h1>
+            </div>
+
+            <div class="burger-menu">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+
+            <div class="hero-text-banner" id="home">
+                <div class="text-container">
+                    <h1>Hey, my name is</h1>
+                    <h1 class="hero-title">David Howe</h1>
+                    <h1>I'm a Software developer.</h1>
+                </div>
+
+                <div class="hero-button-container">
+                    <a class="button" href="#projects">See My Work</a>
+                    <a class="button" href="#contact">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="menu-link-anchor" id="about"></div>
+
+            <div class="section">
+                <div class="title">
+                    <h1>About Me</h1>
+                </div>
+
+                <div class="about-me-content">
+                    <div class="text-container">
+                        <p> I'm a Front-end developer primarily working with HTML, CSS and JavaScript 
+                            to create websites and web apps.
+                        </p>
+
+                        <p> My degree was in art and design and I have experience with the 
+                            Adobe Creative Suite as well (Photoshop, Illustrator, inDesign).
+                        </p>
+
+                        <div class="about-me-button-links">
+                            <a class="button" href="#projects">View My CV</a>
+                            <a class="button" href="#contact">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="icons-container">
+
+                        <div class="web-icons">
+                            <h2>Technologies Used</h2>
+
+                            <div class="technologies-used">
+                                <div class="icon" id="javascript">
+                                    <img src="icons/dark-icons/icons8-javascript-120.png" alt="">
+                                    <div class="tag">JavaScript</div>
+                                </div>
+
+                                <div class="icon" id="html">
+                                    <img src="icons/dark-icons/icons8-html-5-120.png" alt="">
+                                    <div class="tag">HTML5</div>
+                                </div>
+
+                                <div class="icon" id="css">
+                                    <img src="icons/dark-icons/icons8-css3-120.png" alt="">
+                                    <div class="tag">CSS3</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="design-icons">
+                            <h2>Design Software Used</h2>
+
+                            <div class="technologies-used">
+                                <div class="icon" id="photoshop">
+                                    <img src="icons/dark-icons/icons8-adobe-photoshop-150.png" alt="">
+                                    <div class="tag">Photoshop</div>
+                                </div>
+
+                                <div class="icon" id="illustrator"> 
+                                    <img src="icons/dark-icons/icons8-adobe-illustrator-150.png" alt="">
+                                    <div class="tag">Illustrator</div>
+                                </div>
+
+                                <div class="icon" id="indesign">
+                                    <img src="icons/dark-icons/icons8-adobe-indesign-150.png" alt="">
+                                    <div class="tag">inDesign</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Start -->
+
+            <div class="menu-link-anchor" id="projects"></div>
+
+            <div class="section">
+                <div class="title">
+                    <h1>Portfolio</h1>
+                </div>
+                
+                <div class="main-projects-wrapper">
+
+                    <!-- Project 1 -->
+
+                    <div class="project">
+                        <div class="project-content-wrapper">
+
+                            <div class="project-image-container">
+                                <img src="images/laurasima-2.png" alt="">
+                            </div>
+
+                            <div class="project-description">
+
+                                <div class="project-number">
+                                    <h1>#1</h1>
+                                </div>
+                                
+                                <div class="project-description-text-wrapper">
+                                    <div class="project-title">
+                                        <h1>Photography Portfolio</h1>
+                                    </div>
+
+                                    <div class="project-text-body">
+                                        <p>Photography portfolio featuring a minimalist grid 
+                                            display and mobile/tablet reposive design. When 
+                                            thumbnails are clicked a larger image is opened 
+                                            with a description. Home page features a full screen 
+                                            spread with an infinite scrolling image carousel.
+                                        </p>
+                                    </div>
+
+                                    <div class="technologies-used">
+                                        <div class="tag">JavaScript</div>
+                                        <div class="tag">HTML5</div>
+                                        <div class="tag">CSS3</div>
+                                        <div class="tag">PHP</div>
+                                    </div>
+                                </div>
+
+                                <div class="project-button-links">
+                                    <a class="button" href="#projects">View Site</a>
+                                    <a class="button" href="#projects">View Code</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+
+                    <div class="project">
+                        <div class="project-content-wrapper">
+
+                            <div class="project-image-container">
+                                <img src="images/slf-mastery-preview.png" alt="">
+                            </div>
+
+                            <div class="project-description">
+
+                                <div class="project-number">
+                                    <h1>#2</h1>
+                                </div>
+                                
+                                <div class="project-description-text-wrapper">
+                                    <div class="project-title">
+                                        <h1>Coaching Website</h1>
+                                    </div>
+
+                                    <div class="project-text-body">
+                                        <p> Website designed to tell the story of Usman Ali, 
+                                            explain his methodology and provide access to his 
+                                            courses and professional services. The website is 
+                                            fully mobile/tablet responsive and features a pop up 
+                                            contact form, drop down menu and element animations 
+                                            on scroll.
+                                        </p>
+                                    </div>
+
+                                    <div class="technologies-used">
+                                        <div class="tag">JavaScript</div>
+                                        <div class="tag">HTML5</div>
+                                        <div class="tag">CSS3</div>
+                                    </div>
+                                </div>
+
+                                <div class="project-button-links">
+                                    <a class="button" href="#projects">View Site</a>
+                                    <a class="button" href="#projects">View Code</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+
+                    <div class="project">
+                        <div class="project-content-wrapper">
+
+                            <div class="project-image-container">
+                                <img src="images/fika-preview.png" alt="">
+                            </div>
+
+                            <div class="project-description">
+
+                                <div class="project-number">
+                                    <h1>#3</h1>
+                                </div>
+                                
+                                <div class="project-description-text-wrapper">
+                                    <div class="project-title">
+                                        <h1>eCommerce Platform</h1>
+                                    </div>
+
+                                    <div class="project-text-body">
+                                        <p>Photography portfolio featuring a minimalist grid 
+                                            display and mobile/tablet reposive design. When 
+                                            thumbnails are clicked a larger image is opened 
+                                            with a description. Home page features a full screen 
+                                            spread with an infinite scrolling image carousel.
+                                        </p>
+                                    </div>
+
+                                    <div class="technologies-used">
+                                        <div class="tag">JavaScript</div>
+                                        <div class="tag">HTML5</div>
+                                        <div class="tag">CSS3</div>
+                                    </div>
+                                </div>
+
+                                <div class="project-button-links">
+                                    <a class="button" href="#projects">View Site</a>
+                                    <a class="button" href="#projects">View Code</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Projects End -->
+
+                <!-- Contact Me -->
+
+            <div class="menu-link-anchor" id="contact"></div>
+
+            <div class="section">
+                <div class="title">
+                    <h1>Contact</h1>
+                </div>
+                
+                <div class="contact-me">
+
+                    <div class="contact-wrapper">
+                        <div class="contact-form-text">
+                            <h1>Let's Connect</h1>
+
+                            <p>Send me a message using the form on the right and I'll
+                                get back to you as soon as possible.
+                            </p>
+                        </div>
+
+                        <div class="contact-form">
+                            <form action="contact.php" method="POST">
+                                <label for="Name">Name</label>
+                                <input type="text" name="name" id="name">
+
+                                <label for="Name">Email</label>
+                                <input type="text" name="email" id="email">
+
+                                <label for="Name">Message</label>
+                                <textarea type="text" name="message" id="message"></textarea>
+                                    
+                                <button class="form" type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            <footer>
+                <div class="email-wrapper">
+                    <a href="mailto:david.p.howe@hotmail.co.uk">
+                        <img src="icons/dark-icons/icons8-envelope-100.png" alt="">
+                        <p>Email Me</p>
+                    </a>
+                </div>
+
+                <div class="toggle-lighting-mode">
+                    <p>Dark Mode</p>
+                    <input type="checkbox" id="switch2" />
+                    <label id="switch2" for="switch2">Toggle</label>
+                </div>
+
+                <div class="links">
+                    <a target="_blank" href="https://github.com/davidhowe1">
+                        <p>GitHub</p>
+                        <img src="icons/dark-icons/icons8-github-120.png" alt="">
+                    </a>
+                </div>
+            </footer>
+        </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
