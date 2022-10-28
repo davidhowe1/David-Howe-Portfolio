@@ -1122,7 +1122,7 @@ label#switch2:active:after {
     }
 
     .project-description-text-wrapper {
-        margin-bottom: 20px;
+        margin: 0px 20px 0px 20px;
     }
 
     .about-me-section {
