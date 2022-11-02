@@ -323,16 +323,8 @@ p {
     justify-content: space-between;
 }
 
-.project-number h1 {
-    display: flex;
-    margin: 10px 10px 0px 10px;
-    font-family: 'Alata', sans-serif;
-    justify-content: flex-end;
-    font-size: 1.8vw;
-}
-
 .project-description-text-wrapper {
-    margin: 0vw 3vw 0px 3vw;
+    margin: 4vw 3vw 0px 3vw;
 }
 
 .project-title, .project-text-body {
@@ -714,12 +706,6 @@ label#switch2:active:after {
         width: 65vw;
         margin: 0px 0px 15vw 0px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    }
-
-    .project-number h1 {
-        margin: 10px;
-        font-weight: 100;
-        font-size: 3.5vw;
     }
 
     .project-description {
@@ -1122,7 +1108,7 @@ label#switch2:active:after {
     }
 
     .project-description-text-wrapper {
-        margin: 0px 20px 0px 20px;
+        margin: 35px 20px 0px 20px;
     }
 
     .about-me-section {
